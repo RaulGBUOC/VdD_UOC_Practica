@@ -51,7 +51,7 @@ Requiere los paquetes:
 - plotly
 
 Para ejecutar:
-1. lanzar la aplicación con el comando python app.py en la carpeta donde esté el script
+1. Lanzar la aplicación con el comando python app.py en la carpeta donde esté el script
 2. Abre el navegador en: http://127.0.0.1:8050
 
 ---
