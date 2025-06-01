@@ -9,12 +9,12 @@ Combina datos del *Mental Health in Tech Survey (2014)*, el *World Happiness Rep
 ## Estructura del repositorio
 
 ├── data/
-│ ├── mental_health_enriched_2014.csv # Dataset original enriquecido
-│ ├── who_suicide_statistics.csv # Dataset de suicidio por país (OMS)
-│ ├── World Happiness Report.csv # Dataset de felicidad mundial (2014)
+│   ├── mental_health_enriched_2014.csv    # Dataset original enriquecido
+│   ├── who_suicide_statistics.csv         # Dataset de suicidio por país (OMS)
+│   ├── World Happiness Report.csv         # Dataset de felicidad mundial (2014)
 ├── scripts/
-│ ├── enrich_dataset.R # Script en R para limpieza y enriquecimiento
-│ └── app.py # Aplicación Dash en Python
+│   ├── enrich_dataset.R                   # Script en R para limpieza y enriquecimiento
+│   └── app.py                             # Aplicación Dash en Python
 ├── README.md
 
 ---
