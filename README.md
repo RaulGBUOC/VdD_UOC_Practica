@@ -24,10 +24,11 @@ Combina datos del *Mental Health in Tech Survey (2014)*, el *World Happiness Rep
 
 Explorar visualmente preguntas clave como:
 
-- ¿Influyen las condiciones del país en la percepción de apoyo a la salud mental?
-- ¿Existen diferencias de género en el acceso o el estigma?
-- ¿Qué perfiles son más vulnerables a la falta de apoyo psicológico?
-- ¿Hay relación entre felicidad nacional y disposición a hablar de salud mental?
+- ¿Influyen las condiciones del país en la percepción de apoyo?
+- ¿Hay diferencias de género?
+- ¿Qué factores predicen que una persona buscará ayuda?
+- ¿Existe una correlación entre felicidad nacional y disposición a hablar del tema?
+- ¿Quiénes son los más vulnerables?
 
 ---
 
