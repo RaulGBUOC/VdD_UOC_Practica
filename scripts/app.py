@@ -47,12 +47,24 @@ def update_map(selected_gender):
         'benefits': lambda x: (x == "Yes").mean() * 100
     }).reset_index()
 
+    # Llenamos NaN con un valor especial (-1) para visualizar países sin datos
+    summary['suicide_rate_display'] = summary['suicide_rate'].fillna(-1)
+
+    # Definir escala de colores con gris para los valores -1
+    colorscale = [
+        [0.0, 'lightgray'],       # NaN -> -1 → gris claro
+        [0.00001, 'rgb(255,230,230)'],
+        [1.0, 'rgb(180,0,0)']
+    ]
+
     fig = go.Figure(go.Choropleth(
         locations=summary['country_norm'],
         locationmode='country names',
-        z=summary['suicide_rate'],
+        z=summary['suicide_rate_display'],
+        colorscale=colorscale,
         colorbar_title='Tasa de suicidio',
-        colorscale='Reds',
+        zmin=-1,
+        zmax=summary['suicide_rate'].max(),
         text=summary['country_norm']
     ))
 
