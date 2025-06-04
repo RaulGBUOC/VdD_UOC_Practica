@@ -28,7 +28,6 @@ Explorar visualmente preguntas clave como:
 - ¿Hay diferencias de género?
 - ¿Qué factores predicen que una persona buscará ayuda?
 - ¿Existe una correlación entre felicidad nacional y disposición a hablar del tema?
-- ¿Quiénes son los más vulnerables?
 
 ---
 
